@@ -5,7 +5,7 @@ type Props = {
     products: Product[];
 }
 
-function ProductsList({ products }: Product) {
+function ProductsList({ products }: Props) {
     return (
         <div className="orders-list-container">
             <div className="orders-list-items">
